@@ -1,0 +1,52 @@
+Install Raspberry Pi
+
+
+Install Raspbian
+	1. Download Raspbian: https://downloads.raspberrypi.org/raspbian_full_latest
+	2. Download Etcher and install it.
+	3. Connect an SD card reader with the SD card inside.
+	4. Open Etcher and select from your hard drive the Raspberry Pi .img or  .zip file you wish to write to the SD card.
+	5. Select the SD card you wish to write your image to.
+	6.Review your selections and click 'Flash!' to begin writing data to the SD card.
+sudo apt-get update
+sudo apt-get upgrade
+Reboot
+
+//Enable things
+... Raspberry Pi Configuration-->Interfaces-->SSH
+--------------------------------------------->Camera
+
+//Change hostname (because the default is raspberrypi, and we will use many pis
+//Allowed characters: [a-z0-9-]
+Edit 2 files:
+ 1. sudo vi /etc/hostname //1 line
+ 2. sudo vi /etc/hosts
+	-Find the line starting with 127.0.0.1 and change the name following it to your new hostname
+ 3. Reboot
+
+// Screen keyboard
+sudo apt-get install matchbox-keyboard
+
+//Sense hat
+sudo apt-get install sense-hat
+
+//Open Source multimedia framework for converting default format of camera
+sudo apt-get install -y gpac
+
+sudo apt-get install python-picamera python3-picamera
+sudo pip3 install picamera
+
+//tkinter
+sudo apt-get install python-tk
+
+
+//MQTT related things
+sudo apt-get install mosquitto
+sudo apt-get install mosquitto-clients
+sudo pip3 install paho-mqtt
+
+//Firebase
+sudo pip install python-firebase
+
+//OpenCV (many steps, many storage, long time)
+https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/

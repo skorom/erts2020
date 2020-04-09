@@ -1,0 +1,14 @@
+# This gives read (subscribe) access to any client
+# that doesn't supply a username to the topic $SYS/#
+# This is the default rule
+topic read $SYS/#
+
+# Everyone can read every user's public topic
+pattern read users/+/public/#
+
+# Everyone can put a message to other's inbox by their name
+pattern write users/+/inbox/%u
+
+# Everyone can read and write their own topics
+pattern read users/%u/#
+pattern write /users/%u/#

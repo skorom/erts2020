@@ -1,0 +1,3 @@
+Motion sensor: https://www.tinkercad.com/things/3NUPRRUA67Q-mighty-elzing/editel?sharecode=kVj34QfzDGYsjahKmwq8FP88KeHB8Ut1qaxuWmP3p5g=
+RGB blink: https://www.tinkercad.com/things/lRoOnNQ6vUE-rgb-blink/editel?sharecode=dQSYo9aw7g9KIQXhD2qyWhVmnZDXftv2IckgH5a64CQ=
+RGB Color palette: https://www.tinkercad.com/things/c6yGf3kg8bR-rgb-color-palette/editel?sharecode=EdNxSLwEqLELbZhEaGq6R3wGjuikXqMyl7XTYFcJTtQ=
